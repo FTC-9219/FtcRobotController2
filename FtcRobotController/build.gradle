@@ -24,3 +24,9 @@ android {
 }
 
 apply from: '../build.dependencies.gradle'
+
+android {
+    buildFeatures {
+        buildConfig true
+    }
+}
